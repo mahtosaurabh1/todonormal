@@ -24,6 +24,7 @@ body{
     align-items: center;
     position: fixed;
     margin-top: -5.5rem;
+    border-top-left-radius: 3rem;
 }
 .input-handle{
     display: flex;
@@ -36,7 +37,8 @@ body{
     resize: none;
     border: none;
     left: 0.03rem;
-position: relative;
+    position: relative;
+    padding-left: 5px;
 }
 .btn{
     background-color:lightblue;
@@ -56,6 +58,7 @@ position: relative;
     justify-content: space-between;
     align-items: center;
     overflow: auto;
+    padding-left: 0.5rem;
 }
 .task-cont:hover{
     background-color:rgb(81, 81, 158);
